@@ -2,7 +2,7 @@ const Dragon = require('./dragon.js')
 
 class FriendlyDragon extends Dragon{
     constructor(name, color, lifeGoals, friend){
-        super(name, color)
+        super(name, color);
         this.lifeGoals = lifeGoals;
         this.friend = friend;
     };
@@ -14,7 +14,7 @@ class FriendlyDragon extends Dragon{
     }
 
     helpsPeople(){
-        return `${this.name} helps their friend ${this.friend}`
+        return `${this.name} helps their friend ${this.friend}`;
     }
 
 }

@@ -13,7 +13,7 @@ class Dragon {
       dragon.name
     ));
 
-    return dragonNames
+    return dragonNames;
   }
 }
 
